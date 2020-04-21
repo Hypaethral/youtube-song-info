@@ -74,7 +74,7 @@ function start() {
                 return;
             }
 
-            const message = `${tab.audible ? "Playing: " : "Paused: "} ${tab.title}`
+            const message = `${tab.audible ? "Playing: " : "Paused: "} ${tab.title.replace("- YouTube", "")}`
             chrome.downloads.download({
                 url: window.webkitURL.createObjectURL(makeBlobFromString(message)),
                 filename: "youtube-song.txt",
