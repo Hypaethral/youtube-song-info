@@ -1,0 +1,35 @@
+h2 {
+    margin: 0px;
+}
+
+.bad {
+    color: rgb(189, 15, 15);
+}
+
+.good {
+    color: rgb(15, 189, 15);
+}
+
+
+section {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+pre {
+    max-width: 390px;
+    padding: 2px;
+    background-color: peachpuff;
+    color: rgb(189, 15, 15);
+    overflow-x: scroll;
+}
+
+body {
+    width: 400px;
+}

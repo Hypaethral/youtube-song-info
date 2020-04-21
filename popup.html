@@ -1,0 +1,35 @@
+<!--
+   Description: The main UI for your Chrome Extension
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Song Info</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section id="title">
+        <h2>Youtube Song Info</h2>
+        <div><b>Version 0.0.1</b></div>
+    </section>
+    <section id="status">
+        <h2>Status</h2>
+        <div id="status-container"></div>
+    </section>
+    <section id="actions">
+        <h2>Actions</h2>
+        <a id="scan" href="#">Scan for Youtube Tabs</a>
+        <a id="stop" href="#">Stop Script</a>
+        <a id="debug" href="#">Starts script with a random string, no YT required</a>
+        <a id="dump" href="#">Troubleshoot (dump memory)</a>
+    </section>
+    <script src="popup.js"></script>
+</body>
+
+</html>
